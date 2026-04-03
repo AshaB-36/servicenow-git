@@ -1,0 +1,16 @@
+fields:
+  - id: snow_instance_host
+    label: ServiceNow Instance Host
+    type: string
+    help_text: "e.g., myinstance.service-now.com"
+  - id: snow_username
+    label: ServiceNow Username
+    type: string
+  - id: snow_user_password
+    label: ServiceNow Password
+    type: string
+    secret: true
+required:
+  - snow_instance_host
+  - snow_username
+  - snow_user_password
